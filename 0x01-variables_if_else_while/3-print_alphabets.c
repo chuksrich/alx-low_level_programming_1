@@ -3,17 +3,27 @@
 /**
  * main - Prints the alphabet
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
+	char c;
 
-	for (i = 0; i < 52; i++)
-	{
-		putchar(alp[i]);
+	char d;
 
-	putchar('\n');
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while 
+		(d <= 'z') {
+			putchar(c);
+			d++;
+		}
 	return (0);
 }
+
