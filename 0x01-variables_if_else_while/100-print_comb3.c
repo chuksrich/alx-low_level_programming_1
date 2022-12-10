@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints a11 possible different combinations of two digits
+ * main - Print combinations of two digit numbers
  *
  * Return: Always 0 (success)
- *
  */
 int main(void)
-
 {
-	int ones = '0';
-	int tens = '0';
+	int tens;
+	int ones;
 
 	for (tens = '0'; tens <= 9; tens++)
 	{
