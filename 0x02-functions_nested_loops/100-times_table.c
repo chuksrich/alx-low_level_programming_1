@@ -19,7 +19,7 @@ while (a <= n)
 	for (b = 0; b <= n; b++)
 	{
 		rep = a * b;
-		if (b == 0)
+		if (b ==i 0)
 			_putchar('0' + rep);
 		else if (rep < 10)
 		{
@@ -47,4 +47,5 @@ while (a <= n)
 	}
 	_putchar('\n');
 	a++;
+	return (0);
 }
