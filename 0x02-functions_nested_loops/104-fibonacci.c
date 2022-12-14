@@ -10,10 +10,10 @@ int main(void)
 	unsigned long int i;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
-	unsinged long int 1 = 1000000000;
+	unsigned long int l = 1000000000;
 	unsigned long int bef1;
 	unsigned long int bef2;
-	unsinged long int aft1;
+	unsigned long int aft1;
 	unsigned long int aft2;
 
 	printf("%lu", bef);
