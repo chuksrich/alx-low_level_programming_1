@@ -7,6 +7,7 @@
 
 void times_table(void)
 {
+
 int a = 0;
 int b;
 int rep;
